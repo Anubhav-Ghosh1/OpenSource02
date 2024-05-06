@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <div className="flex flex-col h-screen bg-gradient-to-r from-[#0f0f0f] to-slate-900 justify-center items-center">
       <div className="text-white text-3xl font-semibold mb-5">Contact Us</div>
-      <form ref={form} className="flex w-[400px] flex-col" onSubmit={sendEmail()}>
+      <form ref={form} className="flex w-[400px] flex-col" onSubmit={sendEmail}>
         <label className="text-white text-lg">Name</label>
 
         <input
